@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">梁希杯</string>
+    <string name="action_settings">设置身高</string>
+	<string name="input_human_height">输入身高(单位：米)</string>
+    <string name="input_phone_height">设置身高(米)</string>
+    <string name="m">米</string>
+    <string name="lockbuttom">锁定底部</string>
+    <string name="unlockbuttom">解除锁定</string>
+    <string name="distanceis">距离为</string>
+    <string name="heightis">高度为</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="help">帮助</string>
+    <string name="setting">设置</string>
+    <string name="currentMode">当前模式：</string>
+    <string name="humanHeight">请输入您的身高：</string>
+    <string name="phoneHeight">手机高度：</string>
+    <string name="top">确定树顶</string>
+    <string name="button">确定底部</string>
+    <string name="stick">杆顶</string> 
+</resources>

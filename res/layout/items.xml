@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+	<TextView
+			android:id="@+id/id"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:textColor="#cbcaca"
+			android:textSize="30dp" />  
+    <TextView
+        android:id="@+id/ydbh" 
+        android:layout_height="wrap_content"   
+        android:layout_width="fill_parent"   
+        android:layout_toRightOf="@+id/id" android:textSize="15dip">  
+    </TextView>  
+    <TextView 
+        android:id="@+id/xbbh" 
+          android:layout_height="wrap_content"   
+          android:layout_width="fill_parent"
+          android:layout_toRightOf="@+id/id" 
+          android:layout_below="@+id/ydbh">
+    </TextView> 
+    <TextView 
+        android:id="@+id/treenum"
+          android:layout_height="wrap_content"   
+          android:layout_width="fill_parent"
+          android:layout_toRightOf="@+id/id" 
+          android:layout_below="@+id/xbbh">
+    </TextView>
+    <TextView 
+        android:id="@+id/treehigh"
+          android:layout_height="wrap_content"   
+          android:layout_width="fill_parent"
+          android:layout_toRightOf="@+id/id" 
+          android:layout_below="@+id/treenum">
+    </TextView>
+
+</LinearLayout>
